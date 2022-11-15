@@ -16,9 +16,9 @@ def predict():
         try:
             var_1=float(request.form['var_1'])    
             var_2=float(request.form['var_2'])    
-            var_1=float(request.form['var_3'])    
-            var_2=float(request.form['var_4'])  
-            var_1=float(request.form['var_5'])
+            var_3=float(request.form['var_3'])    
+            var_4=float(request.form['var_4'])  
+            var_5=float(request.form['var_5'])
 
             pred_args=[var_1,var_2,var_3,var_4,var_5]
             pred_arr=np.array(pred_args)
